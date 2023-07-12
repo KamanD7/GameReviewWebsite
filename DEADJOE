@@ -1,0 +1,98 @@
+
+*** These modified files were found in JOE when it aborted on Wed Jul 12 00:00:26 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+p/Config/Honeypot.php#	new file:   app/Config/Images.php#	new file:   app/Config/Kint.php#	new file:   app/Config/Logger.php#	new file:   app/Config/Migrations.php#	new file:   app/Config/Mimes.php#	new file:   app/Config/Modules.php#	new file:   app/Config/Pager.php#	new file:   app/Config/Paths.php#	new file:   app/Config/Publisher.php#	new file:   app/Config/Routes.php#	new file:   app/Config/Security.php#	new file:   app/Config/Services.php#	new file:   app/Config/Session.php#	new file:   app/Config/Toolbar.php#	new file:   app/Config/UserAgents.php#	new file:   app/Config/Validation.php#	new file:   app/Config/View.php#	new file:   app/Controllers/BaseController.php#	new file:   app/Controllers/Home.php#	new file:   app/Controllers/News.php#	new file:   app/Controllers/Pages.php#	new file:   app/Database/Migrations/.gitkeep#	new file:   app/Database/Seeds/.gitkeep#	new file:   app/Filters/.gitkeep#	new file:   app/Helpers/.gitkeep#	new file:   app/Language/.gitkeep#	new file:   app/Language/en/Validation.php#	new file:   app/Libraries/.gitkeep#	new file:   app/Models/.gitkeep#	new file:   app/Models/NewsModel.phpa#	new file:   app/ThirdParty/.gitkeep#	new file:   app/Views/errors/cli/error_404.php#	new file:   app/Views/erro
+*** File '(Unnamed)'
+p/Config/Honeypot.php#	new file:   app/Config/Images.php#	new file:   app/Config/Kint.php#	new file:   app/Config/Logger.php#	new file:   app/Config/Migrations.php#	new file:   app/Config/Mimes.php#	new file:   app/Config/Modules.php#	new file:   app/Config/Pager.php#	new file:   app/Config/Paths.php#	new file:   app/Config/Publisher.php#	new file:   app/Config/Routes.php#	new file:   app/Config/Security.php#	new file:   app/Config/Services.php#	new file:   app/Config/Session.php#	new file:   app/Config/Toolbar.php#	new file:   app/Config/UserAgents.php#	new file:   app/Config/Validation.php#	new file:   app/Config/View.php#	new file:   app/Controllers/BaseController.php#	new file:   app/Controllers/Home.php#	new file:   app/Controllers/News.php#	new file:   app/Controllers/Pages.php#	new file:   app/Database/Migrations/.gitkeep#	new file:   app/Database/Seeds/.gitkeep#	new file:   app/Filters/.gitkeep#	new file:   app/Helpers/.gitkeep#	new file:   app/Language/.gitkeep#	new file:   app/Language/en/Validation.php#	new file:   app/Libraries/.gitkeep#	new file:   app/Models/.gitkeep#	new file:   app/Models/NewsModel.phpa#	new file:   app/ThirdParty/.gitkeep#	new file:   app/Views/errors/cli/error_404.php#	new file:   app/Views/erro
+*** File '(Unnamed)'
+/Views/errors/html/error_exception.php
+#	new file:   app/Views/errors/html/production.php
+#	new file:   app/Views/news/create.php
+#	new file:   app/Views/news/index.php
+#	new file:   app/Views/news/success.php
+#	new file:   app/Views/news/view.php
+#	new file:   app/Views/pages/about.php
+#	new file:   app/Views/pages/home.php
+#	new file:   app/Views/templates/footer.php
+#	new file:   app/Views/templates/header.php
+#	new file:   app/Views/welcome_message.php
+#	new file:   app/index.html
+#	new file:   builds
+#	new file:   composer.json
+#	new file:   composer.lock
+#	new file:   env
+#	new file:   phpunit.xml.dist
+#	new file:   preload.php
+#	new file:   public/.htaccess
+#	new file:   public/favicon.ico
+#	new file:   public/index.php
+#	new file:   public/robots.txt
+#	new file:   spark
+#	new file:   tests/README.md
+#	new file:   tests/_support/Database/Migrations/2020-02-22-222222_example_migration.php
+#	new file:   tests/_support/Database/Seeds/ExampleSeeder.php
+#	new file:   tests/_support/Libraries/ConfigReader.php
+#	new file:   tests/_support/Models/ExampleModel.php
+#	new file:   tests/database/ExampleDatabaseTest.php
+#	new file:   tests/session/ExampleSessionTest.php
+#	new file:   tests/unit/HealthTest.php
+#	new file:   writable/.htaccess
+#	new file:   writable/cache/index.html
+#	new file:   writable/logs/index.html
+#	new file:   writable/session/index.html
+#	new file:   writable/uploads/index.html
+#
+
+*** File '(Unnamed)'
+/Views/errors/html/error_exception.php
+#	new file:   app/Views/errors/html/production.php
+#	new file:   app/Views/news/create.php
+#	new file:   app/Views/news/index.php
+#	new file:   app/Views/news/success.php
+#	new file:   app/Views/news/view.php
+#	new file:   app/Views/pages/about.php
+#	new file:   app/Views/pages/home.php
+#	new file:   app/Views/templates/footer.php
+#	new file:   app/Views/templates/header.php
+#	new file:   app/Views/welcome_message.php
+#	new file:   app/index.html
+#	new file:   builds
+#	new file:   composer.json
+#	new file:   composer.lock
+#	new file:   env
+#	new file:   phpunit.xml.dist
+#	new file:   preload.php
+#	new file:   public/.htaccess
+#	new file:   public/favicon.ico
+#	new file:   public/index.php
+#	new file:   public/robots.txt
+#	new file:   spark
+#	new file:   tests/README.md
+#	new file:   tests/_support/Database/Migrations/2020-02-22-222222_example_migration.php
+#	new file:   tests/_support/Database/Seeds/ExampleSeeder.php
+#	new file:   tests/_support/Libraries/ConfigReader.php
+#	new file:   tests/_support/Models/ExampleModel.php
+#	new file:   tests/database/ExampleDatabaseTest.php
+#	new file:   tests/session/ExampleSessionTest.php
+#	new file:   tests/unit/HealthTest.php
+#	new file:   writable/.htaccess
+#	new file:   writable/cache/index.html
+#	new file:   writable/logs/index.html
+#	new file:   writable/session/index.html
+#	new file:   writable/uploads/index.html
+#
+
+*** File '(Unnamed)'
+/home/stud/0/1827335/public_html/gamesreview/.git/COMMIT_EDITMSG
+
+*** File '/home/stud/0/1827335/public_html/gamesreview/.git/COMMIT_EDITMSG'
+
+
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
