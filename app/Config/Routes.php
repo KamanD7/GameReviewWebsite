@@ -41,7 +41,7 @@ $routes->get('news', [News::class, 'index']);
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
 $routes->get('mainpages', [MainPage::class, 'index']);
-$routes->get('mainpages/authenticate', [MainPage::class, 'authenticate']);
+$routes->get('mainpages/2Auth', [MainPage::class, '2Auth']);
 
 
 

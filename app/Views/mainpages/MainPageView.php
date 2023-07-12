@@ -31,8 +31,8 @@
 </head>
 <body>
     <h1>Game List</h1>
-    <div id="gameList">
-        <?php foreach ($gameList as $game): ?>
+    <div id="gamelist">
+        <?php foreach ($gamelist as $game): ?>
             <div class="game">
                 <div class="cover">
                     <?php if (isset($game['cover']) && isset($game['cover']['image_id'])): ?>

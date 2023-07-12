@@ -9,24 +9,22 @@ class MainPage extends BaseController
         return view('mainpages/MainPageView');
     }
 
-    public function authenticate() {
-        $accessToken = 'ut4c1tri0dk2jr7waogzdk99mipauk';
-        $bearer = 'Bearer 41l7ubyitpht7ti1c7uivmwopcxkf2';
-
-        $endpoint = 'https://api.igdb.com/v4/games';
-
+    public function 2Auth() {
+        $client_id = 'ut4c1tri0dk2jr7waogzdk99mipauk';
+        $authorization = 'bearer 41l7ubyitpht7ti1c7uivmwopcxkf2';
+        $url = 'https://api.igdb.com/v4/games';
         $fields = 'cover.image_id, name, summary';
 
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $endpoint);
+        curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
             'fields' => $fields,
             'limit' => 10, 
         ]));
         curl_setopt($ch, CURLOPT_HTTPHEADER, [
-            'Client-ID: ' . $accessToken,
-            'Authorization: ' . $bearer,
+            'Client-ID: ' . $client_id,
+            'Authorization: ' . $authorization,
             'Content-Type: application/json',
         ]);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -51,6 +49,6 @@ class MainPage extends BaseController
 
         $gameList = $data;
 
-        return view('mainpages/MainPageView', ['gameList' => $gameList]);
+        return view('mainpages/MainPageView', ['gameslist' => $gameslist]);
     }
 }
